@@ -1,0 +1,25 @@
+{
+  "name": "blackjack",
+  "version": "0.0.1",
+  "description": "Simple Blackjack game in JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabranr/blackjack.git"
+  },
+  "keywords": [
+    "Blackjack",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Jabran Rafique <hello@jabran.me>",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/jabranr/blackjack/issues"
+  },
+  "homepage": "https://github.com/jabranr/blackjack"
+}

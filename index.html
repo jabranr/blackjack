@@ -1,0 +1,56 @@
+<!doctype HTML>
+<!--[if lt IE 8]><html class="ie-legacy"><![endif]-->
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if IE 10]><html class="ie10"><![endif]-->
+<!--[if gt IE 10]><html class="ie-modern"><![endif]-->
+<!--[if !IE]><html><![endif]-->
+	<head>
+		<title>BlackJack</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+	<body>
+		
+		<div class="container">
+
+			<div class="page-header">
+				<h1>BlackJack</h1>
+			</div>
+
+			<div class="col-sm-12 dealer">
+				<div class="page-header">
+					<h3>Dealer</h3>
+				</div>
+				<div class="clearfix">
+					<div id="dealer"></div>
+				</div>
+				<p class="lead">Score: <span id="dealer-score">0</span></p>
+			</div>
+
+			<div class="col-sm-12 player">
+				<div class="page-header">
+					<h3>Player</h3>
+				</div>
+				<div class="clearfix">
+					<div id="player"></div>
+				</div>
+				<p class="lead">Score: <span id="player-score">0</span></p>
+			</div>
+
+			<div class="col-sm-12 game-options">
+				<ul class="list-inline">
+					<li>
+						<button class="btn btn-danger" id="hit">Hit</button>
+					</li>
+					<li>
+						<button class="btn btn-default" id="stick">Stick</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
