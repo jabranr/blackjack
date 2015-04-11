@@ -1,5 +1,4 @@
 # BlackJack
-=======
 
 > This is an incomplete experiment.
 
